@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "The Undertaker",
+  "version": "1.0",
+  "description": "Une extension personnalisée avec une page HTML.",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "storage"]
+
+
+}
